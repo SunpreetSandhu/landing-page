@@ -1,0 +1,15 @@
+body {
+  display: flex;
+}
+
+.header-hero-wrapper {
+  background-color: #1f2937;
+}
+
+.header {
+  display: flex;
+}
+
+.hero {
+  display: flex;
+}
