@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 body {
   display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: Roboto, sans-serif;
 }
 
 .header-hero-wrapper {
@@ -8,8 +13,64 @@ body {
 
 .header {
   display: flex;
+  align-items: center;
+  margin: 10px;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.header-logo {
+  height: 50px;
+  width: auto;
+}
+
+.header-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.header-links a {
+  color: #e5e7eb;
+  text-decoration: none;
 }
 
 .hero {
   display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 70px;
+}
+
+.card {
+  align-self: center;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #f9faf8;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-text {
+  color: #e5e7eb;
+}
+
+.sign-up-button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: 900;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.hero-image {
+  height: auto;
+  width: 500px;
 }
