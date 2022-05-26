@@ -99,6 +99,7 @@ h2 {
 .card-text {
   text-align: center;
   margin-top: -10px;
+  flex: 1 1 auto;
 }
 
 .card-image {
@@ -107,6 +108,7 @@ h2 {
   margin: 10px;
   border: solid #3882f6;
   border-radius: 15px;
+  flex: 1 1 auto;
 }
 
 .quote-wrapper {
@@ -125,15 +127,17 @@ h2 {
   font-style: italic;
   font-size: 36px;
   font-weight: 300;
+  flex: 1 1 auto;
 }
 
 .quote-author {
   font-weight: 900;
   align-self: flex-end;
+  flex: 1;
 }
 
 .action-wrapper {
-  /* margin: 100px;*/
+  margin: 100px;
 }
 
 .action-container {
@@ -144,6 +148,7 @@ h2 {
   margin: 0px 300px;
   border-radius: 10px;
   padding: 50px;
+  gap: 10px;
 }
 
 .action-header {
@@ -152,12 +157,14 @@ h2 {
   font-weight: 900;
   padding: 0px;
   margin: 0px;
+  flex: 1;
 }
 
 .action-text {
   color: #e5e7eb;
   padding: 0px;
   margin: 0px;
+  flex: 1;
 }
 
 .action-button {
@@ -167,4 +174,17 @@ h2 {
   font-weight: 900;
   padding: 5px 20px;
   border-radius: 5px;
+  flex: 1;
+}
+
+.footer-wrapper {
+  background-color: #1f2937;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  color: #e5e7eb;
+  align-items: center;
+  font-size: 18px;
 }
