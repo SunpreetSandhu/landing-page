@@ -96,15 +96,15 @@ h2 {
   flex: 1;
 }
 
-.card {
+.card-text {
+  text-align: center;
+  margin-top: -10px;
 }
 
 .card-image {
   height: 200px;
   width: 200px;
+  margin: 10px;
   border: solid #3882f6;
-  border-radius: 10px;
-}
-
-p {
+  border-radius: 15px;
 }
