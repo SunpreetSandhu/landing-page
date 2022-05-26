@@ -74,3 +74,37 @@ h1 {
   height: auto;
   width: 500px;
 }
+
+h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.cards-wrapper {
+  margin: 100px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.card {
+}
+
+.card-image {
+  height: 200px;
+  width: 200px;
+  border: solid #3882f6;
+  border-radius: 10px;
+}
+
+p {
+}
