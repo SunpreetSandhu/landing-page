@@ -1,1 +1,1 @@
-write a brief introduction describing what the current project is and what skills you will have demonstrated once you have completed it. (You can also do this as a self-reflection at the end of the project, which is a good way to review what you have learned.)
+This project is a website design for my dog whiskey where I created a homepage designed with CSS Flexbox. The purpose of this is to connect with whiskey via instagram or learn more about maltipoos or even buy one.
